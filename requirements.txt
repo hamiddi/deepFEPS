@@ -1,0 +1,27 @@
+
+# Core
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+tqdm>=4.66
+biopython>=1.80
+
+# Classical ML
+scikit-learn>=1.2
+
+# Embeddings
+gensim>=4.3           # word2vec / fasttext / doc2vec
+transformers>=4.40    # ESM/ProtBERT/DNABERT front-end
+tokenizers>=0.15
+
+# PyTorch backend (CPU). For CUDA, install a matching build from pytorch.org
+torch>=2.1
+
+# Graph embeddings (install both or at least the ones you use)
+networkx>=2.8
+karateclub>=1.3.3     # deepwalk/graph2vec; may pull many deps
+# Alternatively:
+# node2vec>=0.4.6     # if your graph script uses the node2vec package
+
+# Optional IO/utils
+pyyaml>=6.0
