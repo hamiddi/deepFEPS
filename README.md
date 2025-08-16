@@ -199,13 +199,17 @@ CSV with `id` (FASTA header), optional `class`, then feature columns.
 - 🗂️ Configure HF cache on servers (see above tip).
 ---
 
-## 🙌 Citation
+## 📖 Cite this Tool
 
+If you use **deepFEPS** in your research or teaching, please cite it as follows:
+
+### 🔹 BibTeX
 ```bibtex
 @software{deepfeps_2025,
+  author       = {Ismail, Hamid},
   title        = {deepFEPS: Deep Learning-Oriented Feature Extraction for Biological Sequences},
   year         = {2025},
-  url          = {https://github.com/<your-org>/deepFEPS}
+  url          = {https://github.com/hamiddi/deepFEPS}
 }
 ```
 
